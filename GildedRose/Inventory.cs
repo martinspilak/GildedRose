@@ -37,7 +37,6 @@ namespace GildedRose
                 }
                 if (item.Name == "Aged Brie")
                 {
-
                     if (item.SellIn <= 0)
                     {
                         item.Quality +=2;
@@ -54,8 +53,7 @@ namespace GildedRose
                     else item.Quality--;
                 }
                 if (item.Name == "Elixir of the Mongoose")
-                {                    
-                    
+                {                                        
                     if (item.SellIn < 0)
                     {
                         item.Quality -= 2;
@@ -63,9 +61,7 @@ namespace GildedRose
                     else item.Quality--;
                 }
                 if (item.Name == "Backstage passes to a TAFKAL80ETC concert")
-                {
-                    
-                    
+                {                                       
                     if (item.SellIn <= 10 && item.SellIn >= 5)                   
                     item.Quality+=2;
                     else if(item.SellIn <= 5 && item.SellIn > 0)
