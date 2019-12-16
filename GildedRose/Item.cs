@@ -10,5 +10,6 @@
         public string Name { get; }
         public int SellIn { get; set; }
         public int Quality { get; set; }
+
     }
 }
